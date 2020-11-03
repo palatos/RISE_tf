@@ -94,7 +94,7 @@ class RISE:
             masks: The distribution of masks used for generating the set of heatmaps.
         """
         self.model = model
-        self.input_size = tuple(model.input.shape[1:3])
+        self.input_size = model.input_shape[1:3]
 
         if masks_user == None: 
             self.masks = self.generate_masks(N, s, p1)
