@@ -31,7 +31,7 @@ The explain() function receives an image and a model.
 
 The image to be explained is expected to be in the input_shape used by the model, without any color
 normalization or futher preprocessing applied yet.
-This makes it easier to be consistent among different models that may have wildly different preprocesing routines.
+This makes it easier to be consistent among different models that may have wildly different preprocessing routines.
 
 Ideally the any color normalization/preprocessing is included within the model class/function. Tensorflow 2.0 allows this easily with preprocessing layers ( https://www.tensorflow.org/guide/keras/preprocessing_layers).
 
