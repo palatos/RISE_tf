@@ -2,9 +2,9 @@
 Original paper by Petsiuk et al.: https://arxiv.org/abs/1806.07421
 ----------
 This repo was inspired by these great XAI repositories:
-https://github.com/marcotcr/lime
-https://github.com/eclique/RISE
-https://github.com/jacobgil/pytorch-explain-black-box
+* https://github.com/marcotcr/lime
+* https://github.com/eclique/RISE
+* https://github.com/jacobgil/pytorch-explain-black-box
 
 ----------
 Basic usage is as simple as: 
