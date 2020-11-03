@@ -1,9 +1,10 @@
 ## Tensorflow/Keras implementation of RISE ##
 Original paper by Petsiuk et al.: https://arxiv.org/abs/1806.07421
-This repo was inspired by:
+----------
+This repo was inspired by these great XAI repositories:
+https://github.com/marcotcr/lime
 https://github.com/eclique/RISE
 https://github.com/jacobgil/pytorch-explain-black-box
-
 
 ----------
 Basic usage is as simple as: 
@@ -33,5 +34,3 @@ The original work and repo use only black pixel perturbations. This repo include
 The default however is the black pixel perturbations used in the original repo and paper.
 
 This repo is a work in progress.
-
-
