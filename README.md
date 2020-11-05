@@ -42,12 +42,13 @@ class MyModel():
     def __init__(self,model):
         self.model = model
         self.input_shape = model.input_shape
+        self.input_shape = model.output_shape
         
-    def predict(self, image):
+    def predict(self, batch_images):
         
-        image = image/255 #Or whatever preprocessing routine you use for your model
+        batch_images = your_preprocessing(batch_images) 
         
-        return self.model.predict(image)
+        return self.model.predict(batch_images)
 
 
 model_with_preprocessing = MyModel(your_model)
