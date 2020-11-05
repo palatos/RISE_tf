@@ -1,4 +1,11 @@
 ## Tensorflow/Keras implementation of RISE ##
+
+<p float="left">
+  <img src="examples/dog_RISE.png" width="300" />
+  <img src="examples/cat_RISE.png" width="300" />
+</p>
+
+
 Original paper by Petsiuk et al.: https://arxiv.org/abs/1806.07421
 ----------
 This repo was inspired by these great XAI repositories:
