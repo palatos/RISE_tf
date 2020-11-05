@@ -126,7 +126,7 @@ class RISE:
         #So we multiply the image with one batch of masks at a time and later append the predictions.
 
         if(verbose):
-            print('Using batch size: ',batch_size)
+            print('Using batch size: ',batch_size, flush = True)
 
         for i in (tqdm(range(0, N, batch_size)) if verbose else range(0, N, batch_size)):
 
